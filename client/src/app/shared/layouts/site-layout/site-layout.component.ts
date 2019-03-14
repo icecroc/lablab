@@ -17,7 +17,7 @@ export class SiteLayoutComponent  {
     {url: '/closed', name: 'Закрытые заявки'},
     {url: '/answer', name: 'Открытые заявки'},
     {url: '/order', name: 'Добавить заявку'},
-    {url: '/categories', name: 'Шаблоны'}
+    //{url: '/categories', name: 'Шаблоны'}
   ]
 
   constructor(private auth: AuthService,
